@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+.wrapper {
+    max-width: 1160px;
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    /*background: -moz-linear-gradient(-45deg, rgb(92,161,241) 47%, rgb(90,157,234) 48%, rgb(90,157,234) 49%); /* FF3.6-15 */*/
+    background: -webkit-linear-gradient(-45deg, rgb(92,161,241) 47%,rgb(90,157,234) 10%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgb(92,161,241) 47%,rgb(90,157,234) 10%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: #fff;   
+    padding: 3%;    
+    height: 500px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo {
+    float: left;
+    color: #fff;
+
+}
+.nav {
+    float: right;
+}
+
+.nav li {
+    display: inline;
+    padding: 12px 12px;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.line {
+  width: 1200px;
+  opacity: 0.1;
+  border: solid 1px #ffffff;
+  margin-top: 20px;
+}
+.content {
+    display: flex;
+    padding-top: 60px;
+    color: #fff;
+    font-size: 50px;
+    text-align: left;
+}
+/*End of header*/
+
+/*Features section*/
+.details {
+    margin: 7em 0;
+}
+.features {
+    /*padding: 10%;*/
+    display: flex;
+}
+.message {
+    width: auto;
+    font-size: 29px;
+    text-align: left;
+    color: #383838;
+    font-weight: 600;
+}
+.btn-1 {
+    background-color: #5a9dea;
+    color: #fff;
+    cursor: pointer;
+    padding: 11px 28px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.btn-2 {
+    background-color: #fff;
+    color: #5a9dea;
+    cursor: pointer;
+    padding: 11px 28px;
+    border: 1px #5a9dea solid;
+    border-radius: 5px;
+}
+.h1 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.divide {
+  width: 3px;
+  height: 117px;
+  opacity: 0.4;
+  border-radius: 3px;
+  background-color: #5ca1f1;
+  margin-left: 3%;
+  margin-right: 6%;
+  margin-top: 23px;
+}
+
+.lorem-text {
+    font-size: 16px;
+    text-align: left;
+    color: #848484;
+    line-height: 1.23;
+
+}
+.brand {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8em;
+}
+
+/*See my works*/
+.see-my-works {
+    background-color: #f5f5f5;
+    padding: 7em 0;
+}
+
+.my-work {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 600;
+    color: #333333;
+    /*padding: 5%;*/
+}
+
+.hr {
+    width: 5%;
+    border: 2px solid #5a9dea;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+
+.Works {
+    display: flex;
+
+}
+.small-text {
+    text-align: left;
+    font-weight: 600;
+    font-size: 35px;
+    color: #383838;
+    margin: 2em 4em  ;
+}
+.lorem {
+    line-height: 1.62;
+    font-size: 11px;
+    color: #848484;
+    margin: 2em 0;
+    text-align: left;
+}
+.dashes {
+    display: flex;
+    justify-content: center;
+    margin: 0 13em;
+}
+
+
+/*Testimoial*/
+.testimony {
+    display: flex;
+    justify-content: center;
+    margin: 0 3em;
+}
+
+.callout {
+    opacity: 0.8;
+    font-size: 26px;
+    line-height: 1.6;
+    color: #383838;
+    text-align: center;
+    padding: 4em;
+}
+
+.lines {
+    display: flex;
+    justify-content: center;
+    padding-right:  13em;
+}
+ .small-info {
+    padding-right: 5em ;
+ }
+.name {
+    text-align: center;
+    padding: 2em 0;
+    font-size: 18px;
+    color: #383838;
+    font-weight: 600;
+}
+
+.name-one {
+    text-align: center;
+    padding: 1em 0;
+    opacity: 0.8;
+    color: #696969;
+    font-size: 12px;
+}
+.comma {
+    font-weight: bold;
+    font-size: 58px;
+    text-align: left;
+    color: #333333;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.contacts {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: left;
+    color: #333333;
+    padding: 2em 0;
+}
+.text-3 {
+    font-size: 30px;
+    color: #383838;
+    margin: 1em 4em;
+    display: flex;
+    flex-direction: row;
+}
+
+.talk {
+    background-color: #5a9dea;
+    color: #fff;
+    cursor: pointer;
+    width: 25%;
+    border: 1px;
+    border-radius: 5px;
+
+}
+/*Footer*/
+.footer {
+    background-color: #5a9dea;
+    height: 200px;
+    padding-top: 2em ;
+}
+.long {
+    margin: 2em 0; 
+}
+.credits {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0.5em 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
